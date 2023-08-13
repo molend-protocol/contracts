@@ -2088,6 +2088,70 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@molend/testnet@workspace:packages/testnet":
+  version: 0.0.0-use.local
+  resolution: "@molend/testnet@workspace:packages/testnet"
+  dependencies:
+    "@eth-optimism/smock": ^1.1.5
+    "@makerdao/multicall": ^0.12.0
+    "@nomiclabs/hardhat-ethers": ^2.2.2
+    "@nomiclabs/hardhat-waffle": ^2.0.1
+    "@openzeppelin/contracts": latest
+    "@openzeppelin/contracts-upgradeable": latest
+    "@openzeppelin/hardhat-upgrades": ^1.9.0
+    "@typechain/ethers-v5": ^7.2.0
+    "@typechain/hardhat": ^2.3.1
+    "@types/chai": ^4.2.22
+    "@types/crypto-js": ^4.0.2
+    "@types/lodash": ^4.14.180
+    "@types/mocha": ^9.0.0
+    "@types/node": ^16.11.1
+    "@typescript-eslint/eslint-plugin": ^4.33.0
+    "@typescript-eslint/parser": ^4.33.0
+    axios: ^0.26.0
+    chai: ^4.3.4
+    console-log-level: ^1.4.1
+    crypto-js: ^4.1.1
+    dotenv: ^16.3.1
+    envfile: ^6.18.0
+    eslint: ^7.32.0
+    eslint-config-prettier: ^8.3.0
+    eslint-config-standard: ^16.0.3
+    eslint-plugin-import: ^2.25.2
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-prettier: ^3.4.1
+    eslint-plugin-promise: ^5.1.0
+    ethereum-waffle: ^3.3.0
+    ethereumjs-tx: ^2.1.2
+    ethers: ^5.7.2
+    express: ^4.17.2
+    fs-jetpack: ^5.0.0
+    glob: ^7.2.0
+    hardhat: ^2.16.1
+    hardhat-abi-exporter: ^2.2.0
+    hardhat-contract-sizer: ^2.6.1
+    hardhat-gas-reporter: ^1.0.4
+    hardhat-interface-generator: ^0.0.6
+    lodash: ^4.17.21
+    mathjs: ^11.5.0
+    mocha-logger: ^1.0.8
+    moment: ^2.29.3
+    pm2: ^5.1.2
+    prettier: ^2.4.1
+    prettier-plugin-solidity: ^1.0.0-beta.18
+    readline-sync: ^1.4.10
+    solc-0.8.3: "npm:solc@^0.8.3"
+    solhint: ^3.3.6
+    solidity-coverage: ^0.7.17
+    solidity-docgen: ^0.5.16
+    sync-fetch: ^0.3.1
+    ts-node: ^10.7.0
+    typechain: ^5.2.0
+    typedi: ^0.10.0
+    typescript: ^4.6.3
+  languageName: unknown
+  linkType: soft
+
 "@morgan-stanley/ts-mocking-bird@npm:^0.6.2":
   version: 0.6.4
   resolution: "@morgan-stanley/ts-mocking-bird@npm:0.6.4"
@@ -2822,10 +2886,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@openzeppelin/contracts-upgradeable@npm:latest":
+  version: 4.9.3
+  resolution: "@openzeppelin/contracts-upgradeable@npm:4.9.3"
+  checksum: bda0240b1d44c913ec5a4e109c622f216c2bbd7b468d210822f75782a5f7fe0609d08bf03b78b253333625e99e507cf2f75212f1de3b274bd9fc64ae967aeec3
+  languageName: node
+  linkType: hard
+
 "@openzeppelin/contracts@npm:^3.4.1":
   version: 3.4.2
   resolution: "@openzeppelin/contracts@npm:3.4.2"
   checksum: 0c90f029fe50a49643588e4c8670dae3bbf31795133a6ddce9bdcbc258486332700bb732287baabf7bf807f39182fe8ea2ffa19aa5caf359b1b9c0f083280748
+  languageName: node
+  linkType: hard
+
+"@openzeppelin/contracts@npm:latest":
+  version: 4.9.3
+  resolution: "@openzeppelin/contracts@npm:4.9.3"
+  checksum: 4932063e733b35fa7669b9fe2053f69b062366c5c208b0c6cfa1ac451712100c78acff98120c3a4b88d94154c802be05d160d71f37e7d74cadbe150964458838
   languageName: node
   linkType: hard
 
